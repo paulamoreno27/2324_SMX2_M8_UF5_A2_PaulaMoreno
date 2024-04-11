@@ -46,7 +46,23 @@
     color: white;
 }
 
+.contenedor2 {
+    border-width:4px;
+    margin: 1px;
+    display: flex;
+    flex-wrap: nowrap;
+}
 
+.texto-izq {
+    border-width:4px;
+    width: 50%;
+    margin: 5px; 
+}
+
+ul {
+    list-style: none;
+    text-align: left
+}
 
 
 
