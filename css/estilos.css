@@ -1,6 +1,6 @@
 .wrap {
     width: 100vw;
-    height: 70vw;
+    height: 30vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,29 +16,32 @@
     width: 50%;
 }
 
+.proyectos{
+    display: block;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
 .contenedor {
     display: flex;
     justify-content: center;
     text-align: center;
 }
 
-.caja1 {
-    width: 150px;
-    height: 150px;
+.foto {
+    width: 200px;
+    height: 200px;
+    padding-inline: 30px;
     margin-right: 30px;
 }
 
-.caja2 {
-    width: 150px;
-    height: 150px;
+.foto2 {
+    width: 200px;
+    height: 200px;
+    padding-inline: 30px;
     margin-right: 30px;
 }
 
-.caja3 {
-    width: 150px;
-    height: 150px;
-    margin-right: 30px;
-}
 
 .feedback {
     text-align: center;
