@@ -1,0 +1,39 @@
+/*.header{
+    background: url(../img/header.jpg);
+    height: 300px;
+    overflow: hidden;
+}*/
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+.caja1 {
+    width: 200px;
+    height: 150px;
+    margin-right: 25px;
+}
+
+.caja2 {
+    width: 200px;
+    height: 150px;
+    margin-right: 25px;
+}
+
+.caja3 {
+    width: 200px;
+    height: 150px;
+    margin-right: 25px;
+}
+
+.caja4 {
+    width: 200px;
+    height: 150px;
+    margin-right: 25px;
+}
+
+
+
+
+
