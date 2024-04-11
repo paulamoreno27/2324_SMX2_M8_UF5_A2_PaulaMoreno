@@ -1,8 +1,19 @@
-/*.header{
+.wrap {
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: url(../img/header.jpg);
-    height: 300px;
-    overflow: hidden;
-}*/
+    background-size: cover;
+    background-position: center;
+}
+
+.wrap-texto {
+    color: black;
+    text-align: center;
+    width: 50%;
+}
 
 .contenedor {
     display: flex;
@@ -10,28 +21,23 @@
 }
 
 .caja1 {
-    width: 200px;
+    width: 150px;
     height: 150px;
-    margin-right: 25px;
+    margin-right: 30px;
 }
 
 .caja2 {
-    width: 200px;
+    width: 150px;
     height: 150px;
-    margin-right: 25px;
+    margin-right: 30px;
 }
 
 .caja3 {
-    width: 200px;
+    width: 150px;
     height: 150px;
-    margin-right: 25px;
+    margin-right: 30px;
 }
 
-.caja4 {
-    width: 200px;
-    height: 150px;
-    margin-right: 25px;
-}
 
 
 
