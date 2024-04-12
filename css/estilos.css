@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Quicksand:wght@300..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 .wrapper{
     width: 50vw;
     margin: auto;
@@ -23,33 +28,35 @@
     font-family: "Quicksand", sans-serif;
 }
 
-.proyectos{
+.p-texto{
     display: block;
     text-align: center;
     padding-bottom: 50px;
     font-family: "Quicksand", sans-serif;
 }
 
-.contenedor {
+.proyectos {
     display: flex;
     justify-content: center;
     text-align: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    width: 100%;
+    margin: auto;
 }
 
-.foto {
-    width: 170px;
-    height: 170px;
-    padding-inline: 30px;
+.proyectos img{
+    width: 128px;
+    height: 128px;
+    padding-inline: 52px;
+    padding-left: 12px;
     margin-right: 30px;
 }
 
-.foto2 {
-    width: 170px;
-    height: 170px;
-    padding-inline: 30px;
-    margin-right: 30px;
+.fila-1, .fila-2 {
+    flex: 1, 50%;
 }
-
 
 .feedback {
     text-align: center;
@@ -58,7 +65,7 @@
     font-family: "Quicksand", sans-serif;
 }
 
-.contenedor2 {
+.contenedor {
     border-width:4px;
     margin: 1px;
     display: flex;
@@ -67,7 +74,6 @@
 
 .texto-izq {
     border-width:4px;
-    width: 50%;
     margin: 5px; 
     font-family: "Quicksand", sans-serif;
 }
@@ -130,6 +136,38 @@ footer.final{
     font-family: "Quicksand", sans-serif;
 }
 
+@media only screen and (max-width:600px){
+    .wrapper{
+        width: 100%;
+    }
+    
+    .proyectos{
+        flex-direction: row;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .proyectos img{
+        padding-inline: 32px;
+    }
+
+    .fila-1, .fila-2{
+        text-align: center;
+    }
+
+    .contenedor{
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+
+    .texto-izq{
+        
+    }
+}
 
 
 
