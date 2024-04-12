@@ -102,7 +102,7 @@ h3{
     height: 300px;
 }
 
-footer.pie{
+.pie{
     height: 110px;
     background-color: grey; 
     color: white;
@@ -113,6 +113,7 @@ footer.pie{
     "header caja1 caja2"
     "header caja1 caja2"
     "header caja1 caja2";
+    padding-left: 12px;
 }
 
 .cajaFooter1{
@@ -127,7 +128,7 @@ footer.pie{
     grid-area: caja2;
 }
 
-footer.final{
+.final{
     height: 50px;
     background-color: black; 
     color: white; 
@@ -164,8 +165,12 @@ footer.final{
         align-items: center;
     }
 
-    .texto-izq{
-        
+    .pie{
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+        "header header"
+        "caja1 caja2";
     }
 }
 
